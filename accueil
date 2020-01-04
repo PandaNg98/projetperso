@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Page personnelle de Ho Bichnguyet</title>
+    <link rel="stylesheet" type="text/css" href="presentation.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    h2 { text-align: center; }
+    </style>
+</head>
+
+<body>
+<section>
+<div class="row">
+<ul>
+<li><a href="index.html">Présentation</a></li>
+<li><a href="bilan.html">Bilan</a></li>
+<li><a href="projet.html">Projet</a></li>
+<li><a href="autre.html">Expression libre</a></li>
+</ul>
+</div>
+
+<div id="name">
+<h1>Bienvenu mon site</h1>
+</div>
+</br>
+<figure>
+<img src="map.jpeg" alt="vietnam" width="800" height="350"/>
+</figure>
+
+<footer>
+</footer>
+
+</body>
+</html>

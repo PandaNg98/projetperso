@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+.
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+
+ul{
+list-style-type:none;
+margin:0px;
+padding:0px;
+overflow:hidden;
+}
+
+ li{
+float:left;
+}
+
+li a {display:block;
+line-hieght:80px;
+color:#262626;
+padding: 5px 20px;
+text-decoration: underline;
+text-transform:uppercase;
+font-family: 'Staatliches', cursive;
+text-align:center;
+}
+
+div.row{
+background:url("bay.jpg");
+
+}
+
+
+ul li a.active,
+ul li a:hover
+{color:#fff;
+background:#444444;
+}
+
+
+
+#name{
+padding:45px;
+background:url("bay.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+width:100%;
+height:200px;
+}
+
+#name h1{text-align:center;
+font-size:70px;
+font-family: 'Gochi Hand', cursive;
+
+}
+
+footer p{text-align:center;
+font-family: 'Staatliches', cursive;
+position:relative;
+top:30px;
+}
+
+
+h2{text-align:center;
+font-family:Arial,Verdana,sans-serif;
+}
+
+
+.grid-container{ display:grid;
+grid-template-columns:1fr 1fr 1fr;
+}
+
+
+h3, p, figcaption{text-align:center;
+}
+
+
+body{background-color:99FFFF;}
+
+div.w3-third{padding-top: 5px;
+}
